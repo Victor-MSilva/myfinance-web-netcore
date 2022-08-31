@@ -44,6 +44,15 @@ namespace myfinance_web_netcore.Domain
             objDAL.ExecutarComandoSQL(sql);
             objDAL.Desconectar();
         }
+
+        public void Excluir(int id)
+        {
+            var objDAL = DAL.GetInstancia;
+            objDAL.Conectar();
+            var sql = $"DELETE FROM transacao WHERE ID = {id}";
+            objDAL.ExecutarComandoSQL(sql);
+            objDAL.Desconectar();
+        }
         public TransacaoModel CarregarTransacaoPorId (int? id)
         {
          var objDAL = DAL.GetInstancia;

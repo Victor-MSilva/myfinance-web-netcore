@@ -54,6 +54,13 @@ namespace myfinance_web_netcore.Controllers
         }
 
         [HttpGet]
+        public IActionResult ExcluirTransacao(int id)
+        {
+           new Transacao().Excluir(id);
+           return RedirectToAction("Index");
+        }
+
+        [HttpGet]
         public IActionResult TransacaoReport()
         {
             TransacaoReportModel model = new TransacaoReportModel();
