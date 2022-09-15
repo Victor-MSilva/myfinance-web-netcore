@@ -105,6 +105,14 @@ Dessa forma, foi necessário incorporar a biblioteca e importar o core do Google
         </sub>
       </a>
     </td>
+    <td align="center">
+      <a href="#">
+        <img src="https://avatars.githubusercontent.com/u/111002681?v=4" width="100px;" alt="Foto da Jéssica no GitHub"/><br>
+        <sub>
+          <b>Jesschio</b>
+        </sub>
+      </a>
+    </td>
     </td>
   </tr>
 </table>
